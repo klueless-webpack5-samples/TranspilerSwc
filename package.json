@@ -1,0 +1,21 @@
+{
+  "name": "transpiler_swc",
+  "version": "1.0.0",
+  "description": "Transpiler SWC using Webpack 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "npx swc src -d dist",
+    "run": "node dist/test.js"
+  },
+  "keywords": [],
+  "author": "David Cruwys <david@ideasmen.com.au> (https://appydave.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.2.48",
+    "swc-loader": "^0.1.12",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
