@@ -29,7 +29,7 @@ Before and after for Transpiler SWC using Webpack 5
 
 ## Development
 
-Run VSCode Live Server on index.html or open in your browser
+Work through the following commands
 
 ```bash
 # cd [YouCustomDevFolder]
